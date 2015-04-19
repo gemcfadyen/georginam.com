@@ -1,4 +1,5 @@
 ---
+layout: recipe
 title: The First SoCraTes Uk
 ---
 ### Socrates uk
