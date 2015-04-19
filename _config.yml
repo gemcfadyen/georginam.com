@@ -1,6 +1,5 @@
 # Build settings
 encoding: utf-8
-highlighter: rouge
 name: Personal Website
 markdown: redcarpet
 baseurl: /georginam.com
