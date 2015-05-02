@@ -310,14 +310,14 @@ main {
     @media (min-width:40em) {
     main {
         float: right;
-        width: 70%;
+        width: 65%;
         clear: none;
         }
     }
 
 .container {
     background: #E5EAEE;
-    width: 100%;
+    width: 80%;
     float: left;
     }
 
@@ -348,11 +348,11 @@ main {
 
 .img-wrapper {
     margin: 0;
-    position: absolute;
+    position: absolute; 
     top: 0;
     right: 0;
+    
     }
-
 
 main .img-wrapper {
     display: none;
@@ -363,7 +363,6 @@ main .img-wrapper {
         display: block;
         }
     }
-
 
 .grid {
     padding: 0;
