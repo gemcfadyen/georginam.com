@@ -1,7 +1,6 @@
 # georginam.com
 My personal website
 
-
 To make edits to the webpage follow the instructions below.
 
 # Open a command prompt
