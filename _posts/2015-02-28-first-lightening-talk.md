@@ -9,7 +9,7 @@ title: Frightening talk
 Today I did my first lightening talk. Boy did it feel good! 
 
 <!--break-->
- 
+
 I decided to give my talk to the friendly audience at Socrates Tenerife. Having learnt my speel on the flight over, and practised it earlier in the day with a fellow craftsman, I was eager to present so managed to grab slot number 2.
 Introducing the talk I mentioned that this was my first public talk, to which I received a lovely round of applause. This put me a little at ease, and as I took a deep breath, the timer started and I talked about code smells.
 
