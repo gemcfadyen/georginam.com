@@ -14,7 +14,7 @@ Design is something I want to improve on so already a good start. We learnt that
 * calculateDeductions()
 * getDescription()
 
-each one utilised by a different user of the system (IT, Finance and HR respectively). These user groups are all stakeholders of the system but have different needs from the software. They will each have their own reasons for wanting the behaviour to change. This links nicely as Single Responsablility is all about code having one context to change.
+each one utilised by a different user of the system (IT, Finance and HR respectively). These user groups are all stakeholders of the system but have different needs from the software. They will each have their own reasons for wanting the behaviour to change. This links nicely as Single Responsability is all about code having one context to change.
 
 My next challenge was to start learning how to use a Mac. Having always used a Windows machine in the past the Mac is initially slowing me down as I am less familiar with the shortcuts and layout. Being here to learn, the exposure to a new operating system is another good challenge which I'm eager to take on and conquer.
 
