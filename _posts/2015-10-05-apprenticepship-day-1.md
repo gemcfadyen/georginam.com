@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: The start of a new chapter
+title: A New Chapter
 ---
 ### 8th Light Apprenticeship - Day 1
 
