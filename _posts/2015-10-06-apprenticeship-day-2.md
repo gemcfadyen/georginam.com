@@ -10,7 +10,7 @@ Today I ate lunch with my colleagues around the table in the canteen. A simple r
 
 Another ritual at 8th Light is the handshaking. On arrival and departure each day, you greet all your fellow team mates with a handshake. Again, a simple action which shows respect. You can read about it here: 
 
-- [Shake Things Up | https://blog.8thlight.com/doug-bradbury/2007/07/19/shake-things-up.html]
+- [Shake Things Up](https://blog.8thlight.com/doug-bradbury/2007/07/19/shake-things-up.html)
 
 I mentioned yesterday 'Zaguku'. A daily learning session. Today [Felipe](http://www.twitter.com/felipesere) led the session and talked about the Decorator Pattern. One of the behavioural patterns from the GoF book. By 'decorating' objects you can add different functionality to the underlying entity without any client knowing. 
 
