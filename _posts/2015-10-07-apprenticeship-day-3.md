@@ -5,7 +5,9 @@ title: Trade-offs
 ### 8th Light Apprenticeship - Day 3
 
 Yesterday afternoon I started my first coding task at 8th Light. My aim is to perform the RomanNumerals kata at 'waza', 8th Light's afternoon dedicated to learning. Whilst I was not apprehensive about the kata, as I'm familiar with the problem, I found it harder than I originally anticipated. 
+
 <!--break-->
+
 I started small converting the simple cases (1 => I, 5 => V, 10 => X...). Quickly progressed onto the simple additions (2 => II, 20 => XX...) and ended the day attempting the special cases (4 => IV, 9 => IX..). I didn't manage to complete the implementation of the kata by the time I left the office, but did spend my evening thinking about the problem, such that by mid morning today I had the functionality working.
 
 I wasn't however very pleased with the code. Despite some refactoring, my solution contained several loops, including one nested loop. Remembering this is a kata I need to perform in under ten minutes, I felt that I needed a more consise solution, and that I had perhaps over complicated the solution.
