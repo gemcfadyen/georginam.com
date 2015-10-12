@@ -6,7 +6,7 @@ title: Top or Bottom
 
 Over the weekend, my gut instinct was still telling me to stick with Outside In, to prevent creating superflous entites or methods in my program. At this stage, it's what I'd most likely to do if faced with a real client program, especially if the entities were not all known up front. What I was pondering was how to introduce a Player and a Prompt through a high level test, when I wasn't using an out the box mocking framework to verify interactions. In short, I realised the experiment I wanted to try was to avoid using Mockito rather than avoid using Outside In TDD.
 
-<!-- break -->
+<!--break-->
 
 So without Mockito, what should I do? Go against my gut and switch to bottom up approach? Or write my own mocks? I decided to go with the latter, to try something new, but not to doubt my instinct. 
 I used my high level tests to force me to introduce each collaborator. Each time a new collaborator was introduced, I switched to unit testing that one collaborator and it's methods introduced in the high level test. 
