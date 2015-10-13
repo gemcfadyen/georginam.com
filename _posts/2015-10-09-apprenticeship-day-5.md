@@ -6,7 +6,7 @@ title: Small Steps
 
 Today I saw an Apprentice become a Craftsman which was a great way to end my first week - Seeing someone else reach the goal that I have only just started working towards.
 
-<!-- break -->
+<!--break-->
 
 I started my remaining story today. Reminding myself of the rules of TDD, I set about incrementally building up the game Tic Tac Toe. It was definitely a slow start. In the past I've always used Outside In, London style TDD to drill out the collaborators, verifying their interactions with mocks. Somehow I felt this wasn't what was expected so tried to think of other approaches. After talking to a couple of Craftsmen I had a few new ideas to try.
 
