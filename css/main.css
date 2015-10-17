@@ -363,6 +363,15 @@ main {
     right: 0;
     }
 
+.twitter-feed {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 60%;
+}
+
 main .img-wrapper {
     display: none;
     }
@@ -372,6 +381,7 @@ main .img-wrapper {
         display: block;
         }
     }
+    
 
 .grid {
     padding: 0;
@@ -405,11 +415,6 @@ main .img-wrapper {
     margin: 0;
     }
     
-    .nav-primary li:first-child a {
-        border-left: 50px solid #eee;
-        padding-left: 4%;
-        }
-
     @media (min-width: 40em) {
     .nav-primary li:first-child a {
         padding-top: 2em;
@@ -421,23 +426,6 @@ main .img-wrapper {
     margin-right: 85px;
     font-size: 2.5em;
     margin-top: 0.5em;
-    }
-
-.nav-primary li .img-wrapper {
-    left: 0;
-    
-    
-    }
-
-.nav-primary .img-wrapper img {
-    width: 50px;
-    height: 50px;
-    background-color: #eee;
-    opacity: 0.5;
-    }
-
-.nav-primary .img-wrapper:before {
-    border: none;
     }
 
 .nav-primary li a {
@@ -472,15 +460,6 @@ main .img-wrapper {
         color: #fff;
     }
 
-.nav-primary a:hover .img-wrapper img,
-.nav-primary a:focus .img-wrapper img,
-.nav-primary a:active .img-wrapper img,
-.nav-primary .active .img-wrapper img,
-.nav-primary .active:hover .img-wrapper img,
-.nav-primary .active:focus .img-wrapper img,
-.nav-primary .active:active .img-wrapper img {
-    opacity: 1;
-}
 
 .title-site {
     margin: 1.5em auto 1em;

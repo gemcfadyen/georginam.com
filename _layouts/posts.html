@@ -2,13 +2,6 @@
 
     	<main role="main">
       
-                
-        
-        <div class="img-wrapper">
-            <a class="twitter-timeline" href="https://twitter.com/gemcfadyen" data-widget-id="589833547973844992">Tweets by @gemcfadyen</a>
-                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>            
-        	</div>
-
          <div class="blurb">
                <h1>{{ page.title }}</h1>
                     {{ content }}
@@ -16,5 +9,5 @@
 
             </main>
     	{% include nav.html %}
-
+        {% include twitter.html %}
 {% include foot.html %}

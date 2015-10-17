@@ -4,14 +4,10 @@
         
           <h1>{{ page.title }}</h1>
 
-          <div class="img-wrapper">
-            <a class="twitter-timeline" href="https://twitter.com/gemcfadyen" data-widget-id="589833547973844992">Tweets by @gemcfadyen</a>
-                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
  <div class="blurb">
     
           <div class ="posts">
-              {% for post in site.posts limit:10 %}
+              {% for post in site.posts limit:50 %}
                <div class="post-preview">
                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
@@ -27,5 +23,7 @@
       </main>
       
       {% include nav.html %}
-  
+      {% include twitter.html %}
+
+
 {% include foot.html %}
