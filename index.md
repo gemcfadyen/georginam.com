@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: blogs
+title: Blog
 image: portrait.jpg
 home: true
 ---

@@ -45,6 +45,7 @@ body {
     text-rendering: optimizeLegibility;
     margin: 0 auto;
     padding: 0;
+    background: rgba(229, 234, 238, .6);
     }
 
 h1,
@@ -305,6 +306,7 @@ main {
     float: left;
     width: 100%;
     margin-bottom: 0;
+    background: #E5EAEE;
     }
 
     /** main contents **/
@@ -317,15 +319,8 @@ main {
     }
 
 .container {
-    background: #E5EAEE;
     width: 100%;
     float: left;
-    }
-
-    @media (min-width:40em) {
-    .container {
-        background: #E5EAEE fixed;
-        }
     }
 
 
@@ -335,7 +330,6 @@ main {
     border-top: 2px dotted #fff;
     padding-top: 0.5em;
     padding-bottom: 2.5em;
-    background-color: rgba(255,255,255,0.4);
     clear: both;
     text-align: center;
     }
@@ -352,9 +346,12 @@ main {
     position: center; 
     top: 0;
     right: 0;
-    width: 70%;
-    
     }
+
+.blurb img {
+    float: right;
+    margin-left: .6em;
+}
 
 .img-wrapper {
     margin: 0;
@@ -362,15 +359,6 @@ main {
     top: 0;
     right: 0;
     }
-
-.twitter-feed {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 30%;
-    height: 62%;
-}
 
 main .img-wrapper {
     display: none;
@@ -472,10 +460,5 @@ main .img-wrapper {
 
     main .img-wrapper {
         display: block;
-    }
-}
-@media (max-width: 40em) {
-    .twitter-feed {
-        display: none;
     }
 }
