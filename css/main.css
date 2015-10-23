@@ -353,20 +353,6 @@ main {
     margin-left: .6em;
 }
 
-.img-wrapper {
-    margin: 0;
-    position: absolute; 
-    top: 0;
-    right: 0;
-    }
-
-main .img-wrapper {
-    display: none;
-    }
-    
-
-    
-
 .grid {
     padding: 0;
     margin: 0 auto;
@@ -456,9 +442,5 @@ main .img-wrapper {
 
     .nav-primary {
         width: 30%;
-    }
-
-    main .img-wrapper {
-        display: block;
     }
 }
