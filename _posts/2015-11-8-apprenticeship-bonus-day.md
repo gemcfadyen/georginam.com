@@ -26,7 +26,7 @@ Disadvantages: Some validators need the Board, some don't. In order for all vali
 Option (2) means the validators can not be injected or stubbed out in test. This is unfavourable because it feels like a violation of OCP (you would need to make code change to add a new validator to your collection, rather than just plugging a new one in via the constructor).
 As options go, I feel (2) is the best of the bad bunch. At least the validators that do not require the board, have no awareness of it.
 
-### Approach 3: Treating validation with the board separately
+### Approach 2: Treating validation with the board separately
 
 Am I trying to generalise two things that are not the same? Is validation requiring the board different from the numeric validation and thus should be separate? Hmmm, the interfaces can be thought of as different. Take the numeric validation. It does not need a board object, and is performing validation at a less granular level. However, concerning a users move, its only valid if all three sets of validation pass. If a player enters a valid number, and the program goes onto validate that number with the grid, and it fails, the numeric validation needs to happen again on their next input. 
 
