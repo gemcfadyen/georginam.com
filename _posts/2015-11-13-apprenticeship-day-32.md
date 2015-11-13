@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 
+title: Unbeatable
 ---
 ### 8th Light Apprenticeship - Day 32
 
@@ -14,7 +14,7 @@ When the unbeatable player takes the opening move I could see a slight delay in 
 
 As the code base is getting larger, I've introduced packages. I divided the files up as to what I think seems appropriate. I've been reading about package principles this week, so I'll check against them over the weekend to see how close I was.
 
-Leaving for the weekend this Friday feels a lot calmer than last week, when I was battling the validation duplication. I'm enjoying this feeling for the moment, as each week has new challenges to face, so you never know what is around the corner. Tomorrow I'm helping with the Global Day of Code Retreat, so another chance to practise my coaching skills, which will be useful on Monday when I'm back on client site.
+Leaving for the weekend this Friday feels a lot calmer than last week, when I was battling the validation duplication. I'm enjoying this feeling for the moment. Each new week has new challenges to face, so you never know what is around the corner. Tomorrow I'm helping with the Global Day of Code Retreat, so another chance to practise my coaching skills, which will be useful on Monday when I'm back on client site.
 
 
 
