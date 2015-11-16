@@ -42,4 +42,4 @@ Useful links:
 
 - [Command line one liners:](https://github.com/arturoherrero/tkn/blob/master/examples/command-line-one-liners.md)
 
-- [Refucturing:] (http://sc2010subs.wordpress.com/2010/08/07/refuctoring-master-class-jason-gorman-keith-bank-account/)
+- [Refucturing](http://sc2010subs.wordpress.com/2010/08/07/refuctoring-master-class-jason-gorman-keith-bank-account/)
