@@ -27,7 +27,7 @@ I tried to keep all the unit tests green as I went, as the refactoring was quite
 
 In fact, todays activity would make a great 'keep it green kata'.
 
-At the end of the refactoring, the code above has two parameters - the controller is passed in which will coordinate the view to display the next board.
+At the end of the refactoring, the code above has two parameters - the controller is passed in, which will coordinate the model and the view so that the next panel is displayed.
 
       ClickEvent gameSelectionOnClick = new UserSelectsGameType(controller, gameSelectionButton);
       
@@ -39,4 +39,5 @@ The next part to tackle is to remove the duplication between the model in the Gu
 
 2) Update the original 'Game' class to be the controller, and coordinate activities between the CommandPrompt and the game rules.
 
-Originally I thought one controller would be used for both the Gui and the CommandPrompt app, but in fact the flow is quite different. With the gui, it is a step by step approach. Each click generates the next step of the game. With the command line its rather linear, with the command line blocking, and the next step automatically occurring so I am going to use one per app. If they look identical when they are done, then they could perhaps be generalised, but at the moment I'm expecting them to be a little different. 
+Originally I thought one controller would be used for both the Gui and the CommandPrompt app, but in fact the flow is quite different. With the gui, it is like a staggered step approach. Each click generates the next step of the game. With the command line its rather linear. There needs to be something to control the game loop, with the command line blocking, and the next step automatically occurring. 
+Therefore I'm going to have a controller per app. If they look identical when they are done, then they could perhaps be generalised, but at the moment I'm expecting them to be a little different. 
