@@ -23,3 +23,7 @@ Getting this understanding has taken up my entire afternoon, but it is starting 
 As I see it, there is the game logic (players taking turn, the rules of a win) and the display logic (the logic of what you see and how you interact with the application). This needs to be split appropriately between the Prompt implementations and the Game.
 
 This is known as Inversion of control and does not feel intuitive at the moment. As I'm trying to keep pull requests concise I will switch back to the master (which has no gui work merged in at the moment), and remove the prompt from my game tomorrow, getting it working with the command line implementation before going back to the gui work.
+
+Some useful links:
+[C++ TTT Gui game](http://www.codeproject.com/Articles/678078/Cplusplus-is-fun-Writing-a-Tic-Tac-Toe-Game)
+[Java TTT Gui Game](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe.html)
