@@ -39,7 +39,6 @@ We started by adding a method 'isReady()' to the Player classes. This was set to
 To set the move on the gui player, we did a cast. This is because, at this point in the code, we can guarentee the current player is indeed the GuiHumanPlayer. It is invoked from the button being clicked. I feel the casting is the same as saying `instanceof`, which would be violating the OCP principle. Maybe passing the current player to the boardDisplay, and casting inside the 'UserMakesAMove' class would be better, as again it's guarenteed to be a human at that point. But for now, as everything is a trade off, I'll leave it where it is, and start the task again test driving this time. Once it's updated, I'll take another look and decide if it is worth to pass the current player into the board displayer to pre load the gui human or not.
 
 
-
-
+[Observer Pattern](https://en.wikipedia.org/wiki/Observer_pattern)
   
   
