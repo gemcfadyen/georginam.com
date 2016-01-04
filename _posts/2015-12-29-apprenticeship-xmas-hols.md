@@ -318,6 +318,8 @@ Aside from all the above, the big take away from this exercise is to trust your 
 
 Where possible use automated refactoring. Although you have to verify the correct automation has taken place, it can leave less room for human error, and forces you to take one small step at a time.
 
+Adding the new requirement - for 'Conjured' items, only took about an hour. It was just a case of adding a new strategy and including that in the list of rules.
+
 
 
 
