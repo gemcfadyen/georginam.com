@@ -25,4 +25,3 @@ I considered each top level package like this, grouping 'related' classes togeth
 
 In the past I have not put as much thought into separating packages, usually just grouping classes from the same family together as the system evolved. By introducing the sub packages I felt it would be easier for a new team member to navigate and understand the domain, rather than having a long list of classes to wade through and associate in their head.
 
-
