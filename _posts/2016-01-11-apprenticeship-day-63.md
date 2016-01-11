@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Koans
+title: Ruby Tic Tac Toe
 ---
 
 ### 8th Light Apprenticeship - Day 63
