@@ -3,7 +3,7 @@ layout: posts
 title: Rack
 ---
 
-### 8th Light Apprenticeship - Day 70
+### 8th Light Apprenticeship - Day 71
 
 Rack provides the standard interface for interacting with HTTP and connecting to web servers. There is the code that accepts a request and code that serves the response. Rack is the interface between the two. 
 
