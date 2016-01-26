@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 
+title: Template Method 
 ---
 
 ### 8th Light Apprenticeship - Day 74
