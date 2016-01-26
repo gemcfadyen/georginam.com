@@ -26,7 +26,7 @@ At first I thought about using yield blocks for the sections that differ, and pa
 
 This looks rather confusing, as each yield has no context, and actually when attempted, it doesn't appear to be possible! 
 
-The template method was briefly mentioned in the IPM, so I did a quick google, and the suggestions I found were to create a class with a method skeleton inside. This method contains other methods, which are defined in the children, so can be customised as per each implementation requires.
+The [template method](http://gespinosa.org/2015/template-method-pattern-in-ruby/) was briefly mentioned in the IPM, so I did a quick google, and the suggestions I found were to create a class with a method skeleton inside. This method contains other methods, which are defined in the children, so can be customised as per each implementation requires.
 
 This felt more straight forward than the yield idea, as methods can be named and provide context. My template method therefore ended up looking like: 
 
