@@ -67,3 +67,5 @@ As an aside, when the TicTacToeWeb class was made, I moved it into the lib folde
 Finally, I had originally copied over the entire contents of my original tic tac toe repository, so that the game logic could be shared with the web application. In fact, in using the load paths, I can add simply add another path (which points to my original tic tac toe game) and share the files without duplicating them. In the future the core game logic will be a separate gem, but for now at least that gets rid of the file duplication.
 
     $LOAD_PATH << File.expand_path("../lib", __FILE__) << File.expand_path("../../Apprenticeship-RubyTicTacToe/lib", __FILE__) 
+  
+[How to get started with config.ru ](https://www.digitalocean.com/community/tutorials/how-to-install-and-get-started-with-sinatra-on-your-system-or-vps)
