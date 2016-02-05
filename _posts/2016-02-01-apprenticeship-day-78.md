@@ -3,17 +3,17 @@ layout: posts
 title:  Ruby Closures
 ---
 
-### 8th Light Apprenticeship - Day 77
+### 8th Light Apprenticeship - Day 78
 
 Ruby offers various closures which we can use to group code together. The official Wikipedia definition is:
 
-     ‘A function or a reference to a function together with a referencing environment. 
-     Unlike a plain function, closures allow a function to access non-local variables 
+     ‘A function or a reference to a function together with a referencing environment.
+     Unlike a plain function, closures allow a function to access non-local variables
      even when invoked outside of its immediate lexical scope.’
 
 Perhaps it is easier to remember a closure as a group of code which you put together, and when you call it, you have access to everything that was inside it when you created it.
 
-<!--break--> 
+<!--break-->
 
 ### Blocks
 
@@ -31,30 +31,30 @@ Procs can be thought of as a block of code in between `do` `end` keywords, wrapp
 
 
      def a_method_returning_proc(a_variable)
-       Proc.new { puts 'hello world x' + a_variable }     
+       Proc.new { puts 'hello world x' + a_variable }
      end
 
      a_method_returning_proc('Frank').call
-     
+
      -------------------------------------------
-     
+
      a_proc = Proc.new do |name|
        puts 'hello world ' + name
      end
-     
-     a_proc('Frank').call
-    
 
-At most one block can appear in an argument list, however multiple procs can be passed to a method. 
+     a_proc('Frank').call
+
+
+At most one block can appear in an argument list, however multiple procs can be passed to a method.
 
 ### Lambdas
 
 A lambda is also a proc object, but has some differences. It is defined as follows:
 
      lambda { puts 'hello world' }
-     
+
 When passing lambdas in to a method, only one can be passed. If there is a `yield` inside the method, the lambda will get executed there, or alternatively, you can call it explicitly with `lambda_name.call`.
-     
+
 ### Differences between procs and lambda's
 
 Lambda's check the number of arguments but procs do not. If a proc is passed the wrong number of arguments, the proc just ignores the surplus ones. If no arguments are given to a proc that expects one, the argument is defaulted to nil.
@@ -68,11 +68,11 @@ Given the following example, when `lambda_test` is executed, and the return keyw
         lam.call
         puts "Hello world"
     end
-    
+
     lambda_test
 
 A similar example with procs shows that when `proc_test` is executed, and the return statement is hit, the execution flow does not go on to print 'hello world'. It instead, returns to where the encasing method was actually invoked. The proc behaves as though it is part of the calling method, and returns from the block and the calling method when a return statement is reached.
-  
+
     def proc_test
       proc = Proc.new { return }
       proc.call
@@ -80,7 +80,7 @@ A similar example with procs shows that when `proc_test` is executed, and the re
     end
 
     proc_test
-    
+
 ### Why not just use methods?
 
 Why don't we just use methods rather than defining proc's? It is not possible to pass methods into other methods and call them at a particular point. You also can't return a method from a method, which you can do with Procs. This is because Procs are objects, whereas methods are not.
