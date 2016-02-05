@@ -78,9 +78,7 @@ which prompts you for your user name and password. After running the release tas
 
 Now I have three ruby tic tac toe repositories, two of which (command line & web app) depend on ttt-core. All of which run through continuous integration.
 
-###
-
-Useful links
+### Useful links
 
 [Write your own gemspec](http://jeffkreeftmeijer.com/2010/be-awesome-write-your-gemspec-yourself/)
 
