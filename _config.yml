@@ -1,7 +1,7 @@
 # Build settings
 encoding: utf-8
 name: Personal Website
-markdown: redcarpet
+#markdown: redcarpet
 baseurl: /georginam.com
 twitter_username: gemcfadyen
 github_username:  gemcfadyen
