@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 
+title: Spiking
 ---
 
 ### 8th Light Apprenticeship - Day 84
