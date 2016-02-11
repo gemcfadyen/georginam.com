@@ -1,27 +1,27 @@
 {% include head.html %}
 
-      <main role="main">
-        
-          <h1>{{ page.title }}</h1>
+<main role="main">
 
- <div class="blurb">
-    
-          <div class ="posts">
-              {% for post in site.posts limit:50 %}
-               <div class="post-preview">
-               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-               <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-               {{ post.content | split:'<!--break-->' | first }}
-                {% if post.content contains '<!--break-->' %}
-                 <a href="{{ site.baseurl }}{{ post.url }}">read more</a>
-               {% endif %}
-              </div>
-              <hr>
-              {% endfor %}
-          </div>
+<h1>{{ page.title }}</h1>
+
+<div class="blurb">
+
+  <div class ="posts">
+    {% for post in site.posts %}
+    <div class="post-preview">
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      {{ post.content | split:'<!--break-->' | first }}
+      {% if post.content contains '<!--break-->' %}
+      <a href="{{ site.baseurl }}{{ post.url }}">read more</a>
+      {% endif %}
+    </div>
+    <hr>
+    {% endfor %}
   </div>
-      </main>
-      
-      {% include nav.html %}
+</div>
+</main>
+
+{% include nav.html %}
 
 {% include foot.html %}
