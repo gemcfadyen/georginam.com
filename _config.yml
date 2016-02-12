@@ -2,16 +2,10 @@
 encoding: utf-8
 name: Personal Website
 baseurl: /georginam.com
-twitter_username: gemcfadyen
-github_username:  gemcfadyen
+#markdown: redcarpet
 linkedin: "https://uk.linkedin.com/in/georgina-mcfadyen-03942b104"
-twitter: "https://twitter.com/gemcfadyen
-github:  "https://github.com/gemcfadyen"
+twitter: "https://twitter.com/gemcfadyen"
+github_url: "https://github.com/gemcfadyen"
 safe: true
 lsi: false
 github: [Repository metadata]
-
-
-
-
-
