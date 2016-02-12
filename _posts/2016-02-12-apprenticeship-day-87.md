@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Updatating My Website
+title: Updating My Website
 category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 87
