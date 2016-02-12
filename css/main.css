@@ -452,12 +452,12 @@ main {
     font-weight: bold;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 50em) {
     .nav-primary li:first-child a {
         padding-top: 1em;
     }
 
     .nav-primary {
-        width: 20%;
+        width: 300px;
     }
 }
