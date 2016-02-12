@@ -277,6 +277,25 @@ nav ul {
     margin-bottom: 10px;
 }
 
+.social {
+  margin: 0;
+}
+
+.sociallist {
+    padding-left: 0
+}
+ 
+.socialapp {
+        list-style: none;
+      display: inline-block; 
+}
+   
+.socialimg {
+        width: 50px;
+}
+
+
+
 @media print {
     
     @page {

@@ -9,9 +9,3 @@ Having been a good all rounder at school, I studied BSc Computer Science at Roya
 
 Outside of work I run miles and miles. I've completed the London marathon and many shorter races. I also play the violin and can be found in London Violin School Orchestra.
 
-
-## Contact info
-
-- [Twitter (@gemcfadyen)](https://www.twitter.com/gemcfadyen)
-
-- [Github (github.com/gemcfadyen)](https://www.github.com/gemcfadyen)
