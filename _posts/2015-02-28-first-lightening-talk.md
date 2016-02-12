@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Frightening talk
+category: personal
 ---
 ### First Lightening (Frightening?!) Talk
 

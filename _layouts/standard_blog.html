@@ -7,7 +7,7 @@
 <div class="blurb">
 
   <div class ="posts">
-    {% for post in site.categories.apprenticeship %}
+    {% for post in site.categories.personal %}
     <div class="post-preview">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
@@ -23,5 +23,3 @@
 </main>
 
 {% include nav.html %}
-
-{% include foot.html %}

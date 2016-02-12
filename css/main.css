@@ -261,6 +261,22 @@ nav ul {
     list-style: none;
     }
 
+
+.photoPage {
+    background-color: white;
+}
+
+.photosFor100days {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+
+}    
+
+.instaPhoto {
+    margin-bottom: 10px;
+}
+
 @media print {
     
     @page {
@@ -313,7 +329,7 @@ main {
     @media (min-width:40em) {
     main {
         float: right;
-        width: 65%;
+        width: 75%;
         clear: none;
         }
     }
@@ -346,6 +362,7 @@ main {
     position: center; 
     top: 0;
     right: 0;
+    word-wrap: break-word;
     }
 
 .blurb img {
@@ -437,10 +454,10 @@ main {
 
 @media (min-width: 40em) {
     .nav-primary li:first-child a {
-        padding-top: 2em;
+        padding-top: 1em;
     }
 
     .nav-primary {
-        width: 30%;
+        width: 20%;
     }
 }

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Refactoring with a twist
+category: personal
 ---
 
 ### Reverse Refactoring

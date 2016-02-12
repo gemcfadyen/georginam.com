@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title: Blog
+title: Apprenticeship
 home: true
 ---
 

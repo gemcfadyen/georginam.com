@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Being The Trainer
+category: personal
 ---
 
 ### Being the Trainer

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: GDCR 2014
+category: personal
 ---
 
 ### First Facilitation

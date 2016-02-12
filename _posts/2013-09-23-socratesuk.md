@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: The First SoCraTes Uk
+category: personal
 ---
 ### Socrates uk
 
