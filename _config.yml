@@ -1,6 +1,8 @@
 # Build settings
 encoding: utf-8
-name: Personal Website
+name: Georgina M Personal Website
+description: Personal website of Georgina M
+url: http://gemcfadyen.github.io/georginam.com/
 baseurl: /georginam.com
 #markdown: redcarpet
 linkedin: "https://uk.linkedin.com/in/georgina-mcfadyen-03942b104"
