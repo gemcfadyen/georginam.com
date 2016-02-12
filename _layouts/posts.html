@@ -9,4 +9,16 @@
 
 {% include nav.html %}
 
-{% include foot.html %}
+  <footer class="global-footer">  
+ <!-- duplicated the footer here as the paths for the icons are different -->
+    <section class="social">
+     <ul class="sociallist">
+       <li class="socialapp"><a href="{{site.twitter}}" target="_blank"><img class="socialimg" src="../../../../images/twitter.png"  alt="Twitter logo"></a></li>
+       <li class="socialapp"><a href="{{site.github_url}}" target="_blank"><img class="socialimg" src="../../../../images/github.png" alt="Github logo"></a></li>
+       <li class="socialapp"><a href="{{site.linkedin}}" target="_blank"><img class="socialimg" src="../../../../images/linkedin.png" alt="LinkedIn logo"></a></li>
+     </ul>
+   </section>
+ </footer>
+</div>
+</body>
+</html>
