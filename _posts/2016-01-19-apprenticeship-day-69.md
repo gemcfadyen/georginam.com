@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Ruby Tools
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 69

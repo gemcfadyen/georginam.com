@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Estimates
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 34
 

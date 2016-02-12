@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Pen and Paper
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 11
 

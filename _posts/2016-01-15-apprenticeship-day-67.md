@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Running Tests and CI with Ruby
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 67

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Ruby
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 59

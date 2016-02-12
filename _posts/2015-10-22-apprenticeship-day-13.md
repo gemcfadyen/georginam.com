@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Preparation
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 13
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Writing Your Own Rake Task
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 86
 

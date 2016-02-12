@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Real User Experience
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 24
 

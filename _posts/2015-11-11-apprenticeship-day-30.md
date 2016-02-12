@@ -1,8 +1,10 @@
 ---
 layout: posts
 title: Source Control
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 30
+category: apprenticeship
 
 Back to client site today. On arrival, I felt slightly apprehensive, wondering how much progress had been made since we left them to their own devices on Monday. My fear was that every pair would be blocked for different reasons, however attitudes still seemed positive, and people seemed to be occupied.
 

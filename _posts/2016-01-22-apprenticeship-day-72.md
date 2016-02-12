@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Sinatra
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 72

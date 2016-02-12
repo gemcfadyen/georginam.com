@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Decorating
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 57

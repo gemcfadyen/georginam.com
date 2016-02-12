@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Minimalistic
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 14
 

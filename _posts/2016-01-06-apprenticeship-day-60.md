@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Vim configuration
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 60

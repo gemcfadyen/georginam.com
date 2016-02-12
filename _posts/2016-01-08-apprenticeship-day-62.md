@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Koans
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 62

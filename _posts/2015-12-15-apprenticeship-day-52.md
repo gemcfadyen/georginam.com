@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Patterns 
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 52
 

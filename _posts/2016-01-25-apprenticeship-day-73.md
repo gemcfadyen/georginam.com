@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Does TDD Slow You Down
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 73

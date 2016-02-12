@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Top or Bottom
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 6
 

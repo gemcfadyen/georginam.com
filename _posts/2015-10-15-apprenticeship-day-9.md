@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: TDD Grove
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 9
 

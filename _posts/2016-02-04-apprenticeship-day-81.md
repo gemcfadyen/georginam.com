@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: A Simpler Rack App
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 81

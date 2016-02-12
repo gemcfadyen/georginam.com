@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Different Game Types
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 49
 

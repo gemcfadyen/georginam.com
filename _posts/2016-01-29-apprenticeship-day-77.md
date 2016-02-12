@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: A day of Pairing
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 77

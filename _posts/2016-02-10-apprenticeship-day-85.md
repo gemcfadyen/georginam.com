@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: JavaScript Testing
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 85
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Ajax
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 83

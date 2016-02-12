@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Loop tastic
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 34
 

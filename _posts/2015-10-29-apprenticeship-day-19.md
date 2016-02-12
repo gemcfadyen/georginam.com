@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Questioning
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 19
 

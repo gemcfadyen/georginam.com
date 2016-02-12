@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Pairing Principles
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 47
 

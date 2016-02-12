@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Repetition
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 18
 

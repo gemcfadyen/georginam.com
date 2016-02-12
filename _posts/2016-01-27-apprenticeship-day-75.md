@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  Running a Web App Through config.ru
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 75

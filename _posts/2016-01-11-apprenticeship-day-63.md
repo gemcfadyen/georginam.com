@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Ruby Tic Tac Toe
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 63

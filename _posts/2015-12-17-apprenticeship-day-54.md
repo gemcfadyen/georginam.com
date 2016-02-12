@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Mastery Cohort
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 54
 

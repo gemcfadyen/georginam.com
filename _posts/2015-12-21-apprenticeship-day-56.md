@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: All players are equal
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 56

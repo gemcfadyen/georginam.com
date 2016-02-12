@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Beaten by the Board
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Bonus day
 

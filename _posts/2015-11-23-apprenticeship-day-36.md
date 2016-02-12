@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Kata Performance
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 36
 

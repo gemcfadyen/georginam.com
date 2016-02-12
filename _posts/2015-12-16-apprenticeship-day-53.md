@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Observer Pattern 
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 53
 

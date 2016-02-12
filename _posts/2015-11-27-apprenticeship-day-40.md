@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Snakes & Ladders
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 40
 

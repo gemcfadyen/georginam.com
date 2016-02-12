@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Gui Testing
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 42
 

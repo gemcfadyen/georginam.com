@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Productive Week, Productive Review
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 47
 

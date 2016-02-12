@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Profiling Ruby Minimax
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 70

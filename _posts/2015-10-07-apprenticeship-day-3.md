@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Trade-offs
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 3
 

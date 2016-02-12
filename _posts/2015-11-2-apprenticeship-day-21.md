@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Single Point of Change
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 21
 

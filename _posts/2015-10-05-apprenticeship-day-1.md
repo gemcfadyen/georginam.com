@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: A New Chapter
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 1
 

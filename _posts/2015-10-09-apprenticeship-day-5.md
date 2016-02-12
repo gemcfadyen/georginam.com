@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Small Steps
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 5
 

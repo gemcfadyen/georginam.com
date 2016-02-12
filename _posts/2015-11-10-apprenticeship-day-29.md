@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Keeping the balance
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 29
 

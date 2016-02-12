@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Boy Scout Rule
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 46
 

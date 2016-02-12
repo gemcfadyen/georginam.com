@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Gilded Rose Kata - My Masterclass
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Christmas Holidays

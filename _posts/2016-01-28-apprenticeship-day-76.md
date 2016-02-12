@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  State Machines and Production Pairing
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 76

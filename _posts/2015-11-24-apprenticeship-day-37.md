@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Weekly Review
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 37
 

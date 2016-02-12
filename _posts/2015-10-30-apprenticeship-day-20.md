@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Continuous Improvement
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 20
 

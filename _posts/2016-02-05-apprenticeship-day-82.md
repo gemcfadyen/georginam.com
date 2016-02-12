@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: JavaScript
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 82

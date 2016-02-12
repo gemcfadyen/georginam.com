@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Proxy problem
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 28
 

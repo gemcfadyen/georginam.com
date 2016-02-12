@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Rituals
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 2
 

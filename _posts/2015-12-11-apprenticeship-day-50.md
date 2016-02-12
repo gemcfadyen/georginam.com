@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Achievement
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 50
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Model View Controller
+category: apprenticeships
 ---
 ### 8th Light Apprenticeship - Day 45
 

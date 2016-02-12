@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Pair Power
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 39
 

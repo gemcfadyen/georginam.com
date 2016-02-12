@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  Creating and Publishing a Ruby Gem
+category: apprenticeship
 ---
 
 ### 8th Light Apprenticeship - Day 79

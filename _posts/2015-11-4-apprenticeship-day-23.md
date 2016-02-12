@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Strategy
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 23
 

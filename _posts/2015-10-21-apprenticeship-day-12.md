@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Time
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 12
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Scaling
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 33
 

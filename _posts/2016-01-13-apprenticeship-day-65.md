@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Colloquaial Ruby
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 65
 

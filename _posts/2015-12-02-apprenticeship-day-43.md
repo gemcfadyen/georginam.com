@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Rock Paper Scissors
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 43
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Terminal Visuals
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 22
 

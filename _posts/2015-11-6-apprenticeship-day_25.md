@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Validation
+category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 25
 
