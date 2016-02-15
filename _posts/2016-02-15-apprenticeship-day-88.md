@@ -9,6 +9,8 @@ JavaScript lures you into a false sense of safety (all unit tests green), only t
 
 Seemingly it was never designed for large scale programming, so support for building reusable modules is limited. Certain work arounds need to be done to allow the JavaScript code to work both through Node for headless unit tests, and through the browser.
 
+<!--break--> 
+
 When loaded in the browser, JavaScript is loaded into a global namespace. If the namespace is loaded several times, the last assignment wins. This is why libraries such as ajax have all their functions (e.g.: `$.ajax`) as properties of the `$` namespace.
 
       var $ {};
@@ -42,7 +44,7 @@ and for a functionality that uses a `Display`, it would be `required` using
 
 This code somewhat pollutes the files, but the advantage is that you can safely run your jasmine test, then be surprised that Javascript works in the browser rather than being confident with your tests, only to be disappointed when your app doesn't work in the browser.
 
-### Useful links
+### Useful links
 
 [Namespaces in the browser and node](https://github.com/evanj/js-module-experiments/blob/master/node_and_browser/mylib_test.js)
 
