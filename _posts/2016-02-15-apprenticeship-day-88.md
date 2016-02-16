@@ -11,7 +11,7 @@ Seemingly it was never designed for large scale programming, so support for buil
 
 <!--break--> 
 
-When loaded in the browser, JavaScript is loaded into a global namespace. If the namespace is loaded several times, the last assignment wins. This is why libraries such as ajax have all their functions (e.g.: `$.ajax`) as properties of the `$` namespace.
+When loaded in the browser, JavaScript is loaded into a global namespace. If the namespace is loaded several times, the last assignment wins. For example, the namespace `$` has functions like `$.ajax`, as properties of the `$` namespace.
 
       var $ {};
       (
@@ -46,6 +46,8 @@ This code somewhat pollutes the files, but the advantage is that you can safely 
 
 ### Useful links
 
-[Namespaces in the browser and node](https://github.com/evanj/js-module-experiments/blob/master/node_and_browser/mylib_test.js)
+[Namespaces in the browser and node](http://www.evanjones.ca/js-modules.html)
 
-[Code example](http://www.evanjones.ca/js-modules.html)
+[Code example](https://github.com/evanj/js-module-experiments/blob/master/node_and_browser/mylib_test.js)
+
+[Travis for multiple languages](http://entulho.fiatjaf.alhur.es/guias/how-to-use-node-along-with-other-language-on-travis-ci/)
