@@ -77,7 +77,7 @@ Here we go again, another set of instructions on how to setup a JS project which
          "devDependencies" : {
              "jasmine-es6": "0.1.4"
           }
-3. Generate the jasmine test folder by doing `jasmine --init`. This will generate a jasmine.json file. Update it to include the helpers:
+3. Generate the jasmine test folder by doing `jasmine init`. This will generate a jasmine.json file. Update it to include the helpers:
 
            "helpers": [
                "../../node_modules/babel-register/lib/node.js",
