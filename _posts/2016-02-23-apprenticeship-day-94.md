@@ -13,7 +13,7 @@ Well, what do you do when you are coding an HTTP Server?
 
 This is a big task, and there around 20 end to end tests to get passing. I've had a look through them, and decided on a rough order to tackle them. It seemed sensible to start with the test cases named _Simple_ Get, _Simple_ Put, _Simple_ Post. These only checked the status code returned in the HTTP Response.
 
-Yesterday my server was hardcoded to return a 404 response. The first test I looked at their after was SimpleGet, which required a 200 response. I didn't want to test the routing through the higher level server, so introduced a 'processor' which will deal with the routing, and know what processing is required for which request. Having this collaborator, allowed me to create a spy for the server test, and test the permutations at a processor unit level.
+Yesterday my server was hardcoded to return a 404 response. The first test I looked at there after was SimpleGet, which required a 200 response. I didn't want to test the routing through the higher level server, so introduced a 'processor' which will deal with the routing, and know what processing is required for which request. Having this collaborator, allowed me to create a spy for the server test, and test the permutations at a processor unit level.
 
 Having drilled out a few routes, I can identify some areas that will need refactoring. As more routes get added, it would be nice for the processor to be generalised, and be able to look up routes dynamically. I don't want the http methods ("GET", "PUT") to be scattered all over the code base so I plan to extract these out into an enum or similar.  I will do some refactorings as I go, and others I need to see how the entity will evolve a little further before making the decision. 
 
