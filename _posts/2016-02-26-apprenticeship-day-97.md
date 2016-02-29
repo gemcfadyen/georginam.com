@@ -13,6 +13,9 @@ Yesterday Uku also asked how it was going. He told me about when he wrote his im
 
 Both these craftsmen had excitement in their eyes when they talked about their implementation. This contrasts greatly to the apprentices who are yet to take on this challenge. The stories that go around about the task put the fear into you, when in reality, so far, the task for me has also been really enjoyable.
 
+
+###Basic Auth
+
 Today there was only half a day at the office, as the afternoon was our mini-conf. I wanted to use the time efficiently, so got straight to work on the basic-auth story. For some reason it was the one that excited me this morning. 
 
 At first the description seemed a little confusing. 
@@ -38,4 +41,8 @@ Earlier in the week Christoph had stated that no external libraries should be us
 
 The unrealistic part is that the code now contains the username and password, so that once it is decrypted, it can be compared to what it is suppose to be, in order to authenticate. In a real project this would not happen. The credentials would be kept somewhere secret (maybe a protected directory with controlled access, maybe you'd call out to a separate authentication service which stores the credentials in a secure way). I could have saved them in a file, and looked it up, but I don't feel that was the purpose of this test case. I'll mention it at the demo and see what the customers feel and I'll be onto the next test case tomorrow. 
 
+### Useful links
 
+[basic auth wikipedia](https://en.wikipedia.org/wiki/Basic_access_authentication)
+
+[basic auth](https://www.httpwatch.com/httpgallery/authentication/)

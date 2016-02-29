@@ -17,12 +17,16 @@ I did the refactoring with the help of IntelliJ. Initially I kept all the new cl
 
 Thursday had three sets of functionality planned - Directory Content, Directory Listing and File Content. 
 
+###Directory Listing
+
 I started on the Directory listings, and reading the tests I could see that I needed to return a list of the filenames present in the public directory. To achieve this, I enhanced the ResourceHandler to find the publicDirectory and then got back all the filenames within it. Because the HTTP Request body is bytes (as mentioned in yesterdays blog post), I needed to format the list of filenames into a comma separated string, then convert to a byte array. It does therefore feel as though this would be better kept in the ResponseFormatter, but then I'd need to add a separate field on the HttpResponse containing all the filenames, then check in the formatter if this field is populated, and if it is, format it and use it as the body of the response, otherwise use the usual response. That felt more complex.
 
 I realised I had duplicated the logic to take a list and create a comma separated String from it. I decided therefore to extract that functionality out into it's own class, which uses generics to allow for the input parameter to be of different types, depending on where the code is called from. Later in the day I used this a third time, so I'm glad it is being reused well.
 
+###File Conent
 To implement the File Content, all I had to do was configure a new route with the appropriate routing key, and link it to an action (LoadResource) which already existed. It took minutes, and the Fitnesse test was passing. It assured me that my refactoring last night definitely helps me onboard new routes.
 
 Because of this I managed to get the planned tests completed much faster than I anticipated, so used the time to look into the remaining test cases. Reading the titles has not always give me an insight into the functionality, so I felt it was good to spend half an hour refining the details so I can think about them (even if just subconsciously) over the coming days.
 
+###Parameter Decode
 I managed to complete two additional test cases today - MethodNotAllowed and ParameterDecode. For the latter, I decode the parameters when I parse the raw http request received from the client. The parser is therefore getting a little larger. It is also tightly tied to the structure of the raw http request message received. I can't see a way around this, something has to trust the message being received, and as this is at the boundary of the system, it essentially is the adapter pattern, transforming the raw data received to the internal HttpRequest representation.
