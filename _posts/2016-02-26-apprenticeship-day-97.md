@@ -14,7 +14,7 @@ Yesterday Uku also asked how it was going. He told me about when he wrote his im
 Both these craftsmen had excitement in their eyes when they talked about their implementation. This contrasts greatly to the apprentices who are yet to take on this challenge. The stories that go around about the task put the fear into you, when in reality, so far, the task for me has also been really enjoyable.
 
 
-###Basic Auth
+### Basic Auth
 
 Today there was only half a day at the office, as the afternoon was our mini-conf. I wanted to use the time efficiently, so got straight to work on the basic-auth story. For some reason it was the one that excited me this morning. 
 

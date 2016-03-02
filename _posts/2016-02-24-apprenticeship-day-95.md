@@ -9,7 +9,7 @@ Today I have been interacting with the file system a lot. The first test I tackl
 
 <!--break--> 
 
-###Post Get Put Delete
+### Post Get Put Delete
 Tests for interacting with the file system can be a little tricky. I didn't want to create files and load them as fixtures. Instead, I used the JUnit Rule `TemporaryFolder` which I learnt about at an Agile Development course at my old job. It can create a temporary directory structure for you, and it cleans up after itself. During this task I've also used another rule, `ExpectedException`, to ensure that the error messages thrown from my custom exceptions are under test.
 
 I started with implementing a lookup that a GET request could use. For this test, the resources are files, which contain strings, therefore I used BufferedReader, reading each line at a time and concatenating them together. This worked great. I did make an assumption though. If you look up a resource that doesn't exist, what should the server do?
@@ -18,10 +18,10 @@ I thought about my options - Throw an exception, return empty string, return nul
 
 One point of confusion was that the test gets a resource (which doesn't exist initially), then creates it using a POST, but the test case wants a status of 200. Looking at the spec, it states if POST actually creates a resources it should be 201. As the aim of the task is to get the tests passing, I updated my server to return 200.
 
-###Redirect
+### Redirect
 Once I had finished that test, I started on the next, redirect. Redirect returns a 302 status code, which means the requested resource resides temporarily under a different url (which was provided in the test fixture). This test was very quick to implement. That was lucky, as I had spent more time than I thought I would on the first one of the day.
 
-###Image Content
+### Image Content
 The last test I had pencilled in for today was image content. I started off, as usual with writing a test to incorporate the new route. Then, I used the file reader I had created this morning, and a whole lot of little symbols filled my terminal. The code was reading the image as a string and not particularly happy about it! I looked into how to read bytes and went into spike mode, so that I knew how to do it. 
 
 After a lot of trial and error, I came to realise that the HttpRequest I have, whose body was stored as a string (as that satisfied all the requirements I had so far), would probably be better off being stored as a byte[]. After all, I may not know if the resource I'm looking up is a text file, xml file, image and so on. The body was always being transmitted as bytes in the end, so I decided to transform the body earlier and  found a lovely helper method for this, which enabled me to delete around 4 methods in a class:
