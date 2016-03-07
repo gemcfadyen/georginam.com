@@ -7,6 +7,8 @@ category: apprenticeship
 
 Clojure is a lisp dialect with a functional emphasis. The documentation states that it allows you to write expressive code.
 
+<!--break--> 
+
 It's fairly easy to install through leiningen. The Clojure compiler is a jar file (clojure.jar), which takes code written in Clojure and compiles it to JVM Byte code. This makes it a little slow when compiling. This makes it a hosted language, which relies on the jvm for features like threading and garbage collection.
 
 Leiningen is actually a Clojure build tool. You can create a new Clojure project by doing 
