@@ -11,7 +11,7 @@ I worked through some of the koans over the weekend, but, similar to Ruby, I fou
 
 As my next task was to write the Roman Numerals Kata, I googled for a sample Clojure kata (to find a different one to Roman Numerals). I came across [the bowling kata](http://www.jneander.com/writing/bowling-game-kata-in-clojure/).
 
-I worked my way through this, copying the code character by character, bracket by bracket. I didn't fully understand all the data or constructs (to be honest it scared me a little bit), but I felt that I could use this as a sample from which to give the Roman Numerals kata a shot.
+I worked my way through this, copying the code character by character, bracket by bracket. I didn't fully understand all the data or constructs (to be honest it scared me a little bit), but I felt that I could use this as a sample from which to give the Roman Numerals kata a shot. Here is how I got on:
 
 
 To setup a new Clojure project I used the command: 
@@ -21,6 +21,7 @@ To setup a new Clojure project I used the command:
 This creates a new Clojure project laid out to use Speclj for unit testing. To run the tests, in a separate terminal, you can type:
        
          lein spec -a         
+
 This watches the files, and on save, will automatically run the test cases.
 
 I started with a simple test case of converting 1 to I.
