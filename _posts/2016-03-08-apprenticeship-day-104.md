@@ -12,7 +12,7 @@ I had a vague recollection that tail recursion was more efficient than 'normal' 
 
 A quick online search reminded me that in tail recursion, the recursive call is the very last thing in the function. After recursing it does not need to add any variables together or do further processing, thus you don't have to consume any stack space.
 
-I looked back at my roman numerals solution and was pleased to see that I had used tail recursion. However, I went on to learn t hat in Clojure, tail recursion needs to be specified slightly differently, using `loop` and `recur`.
+I looked back at my roman numerals solution and was pleased to see that I had used tail recursion. However, I went on to learn that in Clojure, tail recursion needs to be specified slightly differently, using `loop` and `recur`.
 
 Taking factorial as an example, to use tail recursion, you first state the loop syntax, providing a mapping of the variables (and their starting values) to be used within the recursive loop scope.
 
