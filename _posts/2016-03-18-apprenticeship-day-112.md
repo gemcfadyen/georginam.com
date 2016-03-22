@@ -1,11 +1,11 @@
 ---
 layout: posts
-title: 
+title: Battleships 
 category: apprenticeship
 ---
 ### 8th Light Apprenticeship - Day 112
 
-During waza today I paired with Danny on Clojure. Together we built the game battleship, and we got suprisingly far.
+During waza today I paired with Danny on Clojure. Together we built the game battleship, and we got surprisingly far.
 
 <!--break-->
 
@@ -24,7 +24,7 @@ By pairing I was exposed to some new constructs.
 
 An `if-let` evaluates the boolean expression (find-ship in the above example). If the expression is true, the first vector is created 
    
-          [guess :hit shipnam]
+          [guess :hit shipname]
 
 and if the expression is false, the second vector is created:
 
