@@ -31,7 +31,7 @@ Another uncertainty is how to swap the command line game in and out with the ser
 
 These details are what I'd like to refine in next week's IPM. Perhaps this will end up being the dreaded server task ;-)
 
-Until then, I'll estimate the real task based on the vague ideas I have. I feel it will be a big, non-trivial task, but perhaps it will be clearer after Tuesdays IPM.
+Until then, I'll work on another story, and I'll estimate the real task based on the vague ideas I have. I feel it will be a big, non-trivial task, but perhaps it will be clearer after Tuesdays IPM.
 
 Useful Links:
 
