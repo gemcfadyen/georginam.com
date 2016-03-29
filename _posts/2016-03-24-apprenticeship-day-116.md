@@ -3,7 +3,7 @@ layout: posts
 title: Replay Functionality
 category: apprenticeship
 ---
-### 8th Light Apprenticeship - Day 1
+### 8th Light Apprenticeship - Day 116
 
 Of all the tic tac toe games I have written (I think I'm on my 5th), the replay functionality has been the most difficult to add to the Clojure version.
 
