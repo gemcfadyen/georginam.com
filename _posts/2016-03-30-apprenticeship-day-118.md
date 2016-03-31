@@ -17,7 +17,7 @@ In fact, the product was already 'live' in one sense. The application was deploy
 
 In the meantime, I worked together with Nathan on some small improvements that had been identified. 
 
-The application sources some data from third party api's. We needed to data which fell into a certain category and filter based on some id's. We followed TDD and I even got control of the keyboard a couple of times to write a test or implementation. I much prefer pairing when you get this chance. I feel more engaged and productive even if the code I wrote was quite simple. 
+The application sources some data from third party api's. We needed to obtain data which fell into a certain category and filter based on some id's. We followed TDD and I was allowed control of the keyboard a few times to write a test or implementation. I much prefer pairing when you get this chance. I feel more engaged and productive even if the code I wrote was quite simple. 
 
 Along the way as we looked at our change in a test environment, we noticed that the website was showing an expansion button even if there were no details when expanded. We simply added a story for what we found, and fixed it straight away. It turned out that the condition surrounding the expansion was incorrect, so we just had to make one change.
 
@@ -25,6 +25,6 @@ The code on this project is written in Ruby, which I have not looked at for a co
 
 All changes are reviewed by other team members so some of the day was spent code reviewing other developers changes.
 
-In the afternoon there was the weekly IPM Meeting and it was great to see that it was lead by their product manager. He went through each story and checked that the feature was present on the staging environment. After he was happy the stories were complete, he prioritised the backlog and the team estimated using 'finger gymnastics'. Displaying their unit of estimation by holding up different numbers of fingers, the rough average of which was taken.
+In the afternoon there was the weekly IPM Meeting and it was great to see that it was lead by their product manager rather than the developers. He went through each story and checked that the feature was present on the staging environment. After he was happy the stories were complete, he prioritised the backlog and the team estimated using 'finger gymnastics'. Displaying their unit of estimation by holding up different numbers of fingers, the rough average of which was taken.
 
 In the end the launch didn't take place through no fault of the developers. The business go ahead was not available, so they hope they will launch later in the week. It was a good day, I felt I learnt a lot, and am looking forward to getting out to clients after graduation.
