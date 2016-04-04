@@ -13,6 +13,11 @@ We followed the instructions set out on Skims [repo](https://github.com/sl4m/vm)
 
 Today I spent the day working with Daniel on a large, legacy code base written in Ruby. There was a lot of terminology, the names of which were not so intuitive to pick up and remember. A lot of the names were quite similar, as they depicted different categories of questions and answers. 
 
-As Daniel has been working on the code base for several months, he can navigate around fluently but for someone who has only had one days exposure it was not so easy. Still, we managed to make some updates that were required, to map questions to answers and providing defaults where necessary. We also had the daily standup with the management team in America, providing updates and setting expectations that the current story was unveiling some complexity that had not previously been thought about. Both days were a really interesting insight to being a craftsperson.
+As Daniel has been working on the code base for several months, he can navigate around fluently but for someone who has only had one days exposure it was not so easy. Still, we managed to make some updates that were required, to map questions to answers and providing defaults where necessary. We also had the daily standup with the management team in America, providing updates and setting expectations that the current story was unveiling some complexity that had not previously been thought about. 
+
+In between pairing today I helped onboard our newest apprentice. I'll be helping to co-mentor her after my challenges. It will be nice to help guide someone through the same experience that I'm coming to the end of. Plus it will be a good learning experience, seeing how Skim, the main mentor, decides on the path, and leads the process.
+
+Both days were a really interesting insight to being a Crafts Person, I can't wait until I'm there.
+
 
 
