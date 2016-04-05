@@ -1,4 +1,3 @@
-
 ---
 layout: posts
 title: Optimising Clojure Minimax
@@ -45,6 +44,7 @@ There is a `clj-time.core` library which has lots of useful methods to get the c
 Curiosity got the better of me, and I decided to undo the changes and put the timing test in first, so I could see what the improvement was. 
 
 ##### Time taken for the minimax first move
+
 |State   | Time   | 
 |---|---|---|---|---|
 | No optimisations  | 25.94 sec |
