@@ -59,4 +59,5 @@ This gave me the confidence I needed to ensure the move was being made in under 
 
 
 [alpha beta](https://www.youtube.com/watch?v=xBXHtz4Gbdo)
+
 [clojure date-time library](https://github.com/clj-time/clj-time)
