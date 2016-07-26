@@ -3,10 +3,12 @@ layout: posts
 title: Graduation
 category: apprenticeship
 ---
-### 8th Light Apprenticeship - Day 124
+### 8th Light Apprenticeship - The End.
 
 
 It has been a while since I updated this blog. I wanted a cliff hanger ending, like when a TV program halts for a season break.
+
+<!--break--> 
 
 So, for all those waiting....I did it! I successfully completed my challenges, and am the second woman to make it through as a Software Crafter at <a href="https://8thlight.com">8th Light London</a>.
 
